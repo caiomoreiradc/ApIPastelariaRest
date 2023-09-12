@@ -5,5 +5,6 @@ class Cliente(BaseModel):
     nome: str
     cpf: str
     telefone: str = None
-    grupo: int
+    compra_fiado: int
+    dia_fiado: int
     senha: str = None
